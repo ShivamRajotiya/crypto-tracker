@@ -17,7 +17,7 @@ function Cryptonews() {
 
   return (
     <div className="crypto-main">
-        <h2>Crypto News</h2>
+        <h2>News related to Cryptocurrency</h2>
         {news.map(post => (
         <div className="news" key={post.id}>
           <h4>{post.title}</h4>
